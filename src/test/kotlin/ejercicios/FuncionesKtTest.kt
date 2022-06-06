@@ -108,20 +108,20 @@ internal class FuncionesKtTest {
 
     @Test
     fun calcularBecas() {
-        assertEquals("- Ernesto de 20 años, con promedio de 82.4, obtuvo una beca de 1000.0 pesos.\n" +
-                "- Luisa de 19 años, con promedio de 63.0, obtuvo una beca de 500.0 pesos.\n" +
-                "- Carlos de 22 años, con promedio de 85.8, obtuvo una beca de 1000.0 pesos.\n" +
-                "- Juana de 24 años, con promedio de 97.0, obtuvo una beca de 2000.0 pesos.\n" +
-                "- Carolina de 21 años, con promedio de 90.5, obtuvo una beca de 2000.0 pesos.\n" +
+        assertEquals("- Ernesto de 20 años, con promedio de 82.4, obtuvo una beca de $1000.0.\n" +
+                "- Luisa de 19 años, con promedio de 63.0, obtuvo una beca de $500.0.\n" +
+                "- Carlos de 22 años, con promedio de 85.8, obtuvo una beca de $1000.0.\n" +
+                "- Juana de 24 años, con promedio de 97.0, obtuvo una beca de $2000.0.\n" +
+                "- Carolina de 21 años, con promedio de 90.5, obtuvo una beca de $2000.0.\n" +
                 "- Mateo de 25 años, con promedio de 30.3, no obtuvo beca por lo tanto se le enviará una invitación.\n" +
-                "- Maria de 19 años, con promedio de 77.7, obtuvo una beca de 1000.0 pesos.\n" +
-                "- Pedro de 17 años, con promedio de 86.0, obtuvo una beca de 2000.0 pesos.\n" +
-                "- Antonia de 18 años, con promedio de 63.0, obtuvo una beca de 100.0 pesos.\n" +
+                "- Maria de 19 años, con promedio de 77.7, obtuvo una beca de $1000.0.\n" +
+                "- Pedro de 17 años, con promedio de 86.0, obtuvo una beca de $2000.0.\n" +
+                "- Antonia de 18 años, con promedio de 63.0, obtuvo una beca de $100.0.\n" +
                 "- Ana de 16 años, con promedio de 47.0, no obtuvo beca por lo tanto se le enviará una invitación.\n" +
-                "- Mauricio de 15 años, con promedio de 65.5, obtuvo una beca de 100.0 pesos.\n" +
-                "- Angelica de 18 años, con promedio de 89.1, obtuvo una beca de 2000.0 pesos.\n" +
-                "- Esteban de 17 años, con promedio de 93.0, obtuvo una beca de 3000.0 pesos.\n" +
-                "- Sara de 16 años, con promedio de 62.0, obtuvo una beca de 100.0 pesos.\n",
+                "- Mauricio de 15 años, con promedio de 65.5, obtuvo una beca de $100.0.\n" +
+                "- Angelica de 18 años, con promedio de 89.1, obtuvo una beca de $2000.0.\n" +
+                "- Esteban de 17 años, con promedio de 93.0, obtuvo una beca de $3000.0.\n" +
+                "- Sara de 16 años, con promedio de 62.0, obtuvo una beca de $100.0.\n",
             ejercicios.calcularBecas(arrayOf(
                 Triple("Ernesto", 20, 82.4),
                 Triple("Luisa", 19, 63.0),

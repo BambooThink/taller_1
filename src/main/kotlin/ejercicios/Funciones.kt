@@ -400,7 +400,7 @@ fun calcularBecas(estudiantes: Array<Triple<String, Int, Double>>): String {
     for (beca in becas) {
         var (nombreEstudiante, edad, promedio, tipoBeca) = beca
         if (tipoBeca != 0.0) {
-            informe += "- $nombreEstudiante de $edad años, con promedio de $promedio, obtuvo una beca de $tipoBeca pesos.\n"
+            informe += "- $nombreEstudiante de $edad años, con promedio de $promedio, obtuvo una beca de $$tipoBeca.\n"
         } else {
             informe += "- $nombreEstudiante de $edad años, con promedio de $promedio, no obtuvo beca por lo tanto se le enviará una invitación.\n"
         }
